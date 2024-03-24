@@ -3,6 +3,9 @@
   <name>Build</name>
   <description />
   <settings>
+    <options>
+      <option name="artifactRules" value="artifacts/*.jar" />
+    </options>
     <parameters />
     <build-runners>
       <runner id="Maven2" name="mvn clean deploy" type="Maven2">
